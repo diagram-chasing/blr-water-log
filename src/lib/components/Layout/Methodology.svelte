@@ -56,7 +56,7 @@
           <p class="text-xs text-justify">
             For <br />
             <a
-              href="https://diagramchasing.com"
+              href="https://diagramchasing.fun"
               target="_blank"
               rel="noopener noreferrer"
               class="text-blue-600 hover:text-blue-800 transition-colors duration-100"
@@ -65,7 +65,9 @@
           </p>
           <p class="text-xs leading-relaxed text-justify">
             by <a href="https://bsky.app/profile/aman.bh">Aman Bhargava</a> &
-            <a href="https://bsky.app/profile/vonter.bsky.social">Vivek Matthew</a>
+            <a href="https://bsky.app/profile/vonter.bsky.social"
+              >Vivek Matthew</a
+            >
           </p>
         </div>
       </div>
