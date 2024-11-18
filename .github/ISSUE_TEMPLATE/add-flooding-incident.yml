@@ -1,0 +1,69 @@
+name: Add Flooding Incident
+description: Report a flooding incident for an existing location in Bangalore
+title: 'Add Flooding Incident: <location name>'
+labels: ['data', 'flooding-incident']
+body:
+  - type: dropdown
+    id: location
+    attributes:
+      label: Location
+      description: Select the location where flooding occurred
+      options:
+        - Austin Town
+        - Bagmane Tech Park
+        - Embassy Golf Links
+        - Ecospace
+        - Epsilon Villas
+        - Esteem Northwood
+        - Halasuru
+        - Hebbal
+        - Hennur Railway Underpass
+        - Hulimavu
+        - JNCASR
+        - Kempegowda International Airport
+        - Kendriya Vihar
+        - Kengeri
+        - Kurubarahalli
+        - Manyata Tech Park
+        - Munnekolala
+        - Nandini Layout
+        - National Games Village
+        - Nayandahalli
+        - Neelasandra
+        - Okalipuram
+        - Panathur Railway Underpass
+        - Prestige Tech Park
+        - Rainbow Drive
+        - ST Bed
+        - Silk Board
+        - Tatanagar
+        - Wipro
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: When did this flooding incident occur?
+      placeholder: '2024'
+    validations:
+      required: true
+
+  - type: input
+    id: news_url
+    attributes:
+      label: News Article URL
+      description: Link to a news article covering this flooding incident
+      placeholder: 'https://example.com/news-article'
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Any other relevant details about this flooding incident
+      placeholder: 'Add any additional context here...'
+    validations:
+      required: false

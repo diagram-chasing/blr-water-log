@@ -1,0 +1,31 @@
+node_modules
+
+# Output
+.output
+.vercel
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+.vite
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Raw data
+data/tiles/karnataka.pmtiles
+data/tiles/karnataka.osm.pbf
+data/dem/venv
+data/dem/tiles
+
+# Ignore project-files folder
+project-files/
+data/styling-rasters/*.geojson 

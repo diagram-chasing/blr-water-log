@@ -1,0 +1,72 @@
+name: Update Issue Template POIs
+
+on:
+  push:
+    paths:
+      - 'src/lib/data/pois.json'
+    branches:
+      - master
+
+jobs:
+  update-template:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update Template
+        run: |
+          # Extract POI names from JSON, sort them, and format for YAML
+          POIS=$(jq -r '.features[].properties.name' src/lib/data/pois.json | sort -u | sed 's/^/        - /')
+
+          # Create the new template with the updated POIs
+          cat > .github/ISSUE_TEMPLATE/add-flooding-incident.yml << EOL
+          name: Add Flooding Incident
+          description: Report a flooding incident for an existing or new location in Bangalore
+          title: "Add Flooding Incident: <location name>"
+          labels: ["data", "flooding-incident"]
+          body:
+            - type: dropdown
+              id: location
+              attributes:
+                label: Location
+                description: Select the location where flooding occurred
+                options:
+          $POIS
+              validations:
+                required: true
+
+            - type: input
+              id: year
+              attributes:
+                label: Year
+                description: When did this flooding incident occur?
+                placeholder: "2024"
+              validations:
+                required: true
+
+            - type: input
+              id: news_url
+              attributes:
+                label: News Article URL
+                description: Link to a news article covering this flooding incident
+                placeholder: "https://example.com/news-article"
+              validations:
+                required: true
+
+            - type: textarea
+              id: additional_info
+              attributes:
+                label: Additional Information
+                description: Any other relevant details about this flooding incident
+                placeholder: "Add any additional context here..."
+              validations:
+                required: false
+          EOL
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .github/ISSUE_TEMPLATE/add-flooding-incident.yml
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update POI options in issue template"
+          git push

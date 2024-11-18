@@ -1,0 +1,128 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'maplibre-gl/dist/maplibre-gl.css';
+
+@font-face {
+  font-family: 'Supreme-Regular';
+  src:
+    url('./lib/assets/fonts/Supreme-Regular.woff2') format('woff2'),
+    url('./lib/assets/fonts/Supreme-Regular.woff') format('woff'),
+    url('./lib/assets/fonts/Supreme-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Khand-Regular';
+  src:
+    url('./lib/assets/fonts/Khand-Regular.woff2') format('woff2'),
+    url('./lib/assets/fonts/Khand-Regular.woff') format('woff'),
+    url('./lib/assets/fonts/Khand-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Khand-Medium';
+  src:
+    url('./lib/assets/fonts/Khand-Medium.woff2') format('woff2'),
+    url('./lib/assets/fonts/Khand-Medium.woff') format('woff'),
+    url('./lib/assets/fonts/Khand-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Khand-Bold';
+  src:
+    url('./lib/assets/fonts/Khand-Bold.woff2') format('woff2'),
+    url('./lib/assets/fonts/Khand-Bold.woff') format('woff'),
+    url('./lib/assets/fonts/Khand-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+body {
+  background-color: #282828 !important;
+}
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Khand-Bold', sans-serif;
+  line-height: 1.4;
+}
+
+p {
+  font-family: 'Supreme-Regular', sans-serif;
+}
