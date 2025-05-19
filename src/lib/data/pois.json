@@ -4,320 +4,32 @@
         {
             "type": "Feature",
             "properties": {
-                "neighbourhood": "Hebbal",
+                "neighbourhood": "Nandini Layout",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-rains-waterlogging-slow-moving-traffic-tree-falls-disrupt-normal-life-as-imd-issues-orange-alert-3241096",
                 "date": "2024",
-                "name": "Hebbal",
-                "url": "https://www.moneycontrol.com/news/india/bengaluru-rains-add-to-monday-blues-roads-flooded-traffic-police-issue-advisory-12793211.html"
+                "name": "Nandini Layout"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.59184358358,
-                    13.04756041122
+                    77.53510947704,
+                    13.00869740382
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "date": "2021",
-                "neighbourhood": "Hulimavu",
-                "name": "Hulimavu",
-                "url": "https://www.thehindu.com/news/cities/bangalore/800-houses-flooded-after-hulimavu-lake-breaches/article61615080.ece"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.60828013897,
-                    12.87678121634
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "url": "https://www.youtube.com/watch?v=zjc2_ZYAkrM",
-                "date": "2024",
-                "neighbourhood": "Hennur",
-                "name": "Hennur Railway Underpass"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.64248366833,
-                    13.04369321749
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "url": "https://www.hindustantimes.com/cities/bengaluru-news/bengaluru-rain-nightmare-terrifying-video-shows-biker-falling-as-water-gushes-fiercely-in-flooded-underpass-101728996054329.html",
-                "name": "Panathur Railway Underpass",
-                "date": "2024",
-                "neighbourhood": "Panathur"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.70724294424,
-                    12.93852364806
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "url": "https://scroll.in/article/1032186/at-bengalurus-rainbow-drive-a-snapshot-of-the-citys-man-made-flood-challenges",
-                "neighbourhood": "Sarjapur Road",
-                "date": "2022",
-                "name": "Rainbow Drive"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.68702981710,
-                    12.90788439773
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2021",
-                "name": "Manyata Tech Park",
-                "neighbourhood": "Nagawara",
-                "url": "https://www.thenewsminute.com/karnataka/bengaluru-s-manyata-tech-park-flooded-employees-sent-back-home-157911"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.61849399090,
-                    13.04749772102
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-road-caves-in-underpass-floods-after-night-long-rain/articleshow/94870728.cms",
-                "neighbourhood": "CV Raman Nagar",
-                "name": "Bagmane Tech Park",
-                "date": "2022"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.65673158407,
-                    12.97967679752
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2025",
-                "name": "Manyata Tech Park",
-                "neighbourhood": "Nagawara",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bbmp-chief-rides-tractor-through-flood-hit-sai-layout-3546518"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.61905189037,
-                    13.04779037271
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2024",
-                "neighbourhood": "Neelasandra",
-                "name": "Neelasandra",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/north-east-done-rain-now-turns-to-cbd-south-3246059"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.61733527660,
-                    12.95119655244
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2021",
-                "neighbourhood": "Halasuru",
-                "name": "Halasuru",
-                "url": "https://timesofindia.indiatimes.com/city/bengaluru/bbmp-chief-orders-drain-works-to-end-ulsoor-flooding/articleshow/85160708.cms"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.62737746716,
-                    12.97863134502
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "neighbourhood": "Bellandur",
-                "name": "Ecospace",
-                "date": "2024;2022",
-                "url": "https://www.thehindu.com/news/national/karnataka/heavy-rain-brings-bengaluru-to-its-knees/article65854264.ece;https://www.deccanherald.com/india/karnataka/bengaluru/heavy-overnight-rain-floods-bengalurus-homes-and-major-roads-3242875"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.67982001781,
-                    12.92476261413
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2025",
-                "neighbourhood": "Shantinagar",
-                "name": "BMTC Depot",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/flooding-in-many-parts-of-bengaluru-after-torrential-overnight-rain-3546886"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.59501929760,
-                    12.95374778108
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Kendriya Vihar",
-                "date": "2024",
-                "url": "https://www.thehindu.com/news/cities/bangalore/kendriya-vihar-flooded-again-residents-evacuated-for-eight-days/article68782835.ece",
-                "neighbourhood": "Yelahanka"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.59956832409,
-                    13.10635553618
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Domlur",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/heavy-showers-ipl-crowd-cause-gridlock-3545732",
-                "neighbourhood": "Domlur",
-                "date": "2025"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.64226909161,
-                    12.95964478334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "url": "https://www.newindianexpress.com/cities/bengaluru/2021/Nov/22/boats-used-to-rescue-stranded-residents-in-bengaluru-as-roads-flooded-after-heavy-rains-2386676.html",
-                "name": "Kendriya Vihar",
-                "date": "2021",
-                "neighbourhood": "Yelahanka"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.60038373709,
-                    13.10677348927
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "neighbourhood": "Bellandur",
-                "name": "Prestige Tech Park",
-                "date": "2022",
-                "url": "https://www.thehindu.com/news/national/karnataka/heavy-rain-brings-bengaluru-to-its-knees/article65854264.ece"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.69278045177,
-                    12.94408643313
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bbmp-chief-rides-tractor-through-flood-hit-sai-layout-3546518",
-                "date": "2025",
-                "neighbourhood": "Hennur",
-                "name": "Sai Layout"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.64381404400,
-                    13.03967961187
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Nayandahalli",
-                "neighbourhood": "Rajarajeshwari Nagar",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/sudden-deluge-of-rains-trigger-traffic-jams-water-logging-in-bengaluru-3221194",
+                "url": "https://bangaloremirror.indiatimes.com/bangalore/civic/nightmare-on-jp-nagar-streets-brief-rain-enough-to-sink-homes/articleshow/113135770.cms",
+                "name": "JP Nagar 4th Phase",
+                "neighbourhood": "JP Nagar",
                 "date": "2024"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.52826450109,
-                    12.94504838140
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2017",
-                "name": "ST Bed",
-                "neighbourhood": "Koramangala",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/in-st-bed-palike-contributes-2019996"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.63450141430,
-                    12.93103674542
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2025",
-                "neighbourhood": "Silk Board",
-                "name": "Silk Board",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/flooding-in-many-parts-of-bengaluru-after-torrential-overnight-rain-3546886"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.62244220257,
-                    12.91765174141
+                    77.59868858099,
+                    12.90378493657
                 ]
             }
         },
@@ -340,6 +52,70 @@
         {
             "type": "Feature",
             "properties": {
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/take-action-to-prevent-flooding-jp-nagar-residents-urge-bbmp-chief-1146560.html",
+                "name": "JP Nagar 4th Phase",
+                "neighbourhood": "JP Nagar",
+                "date": "2022"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.59922502279,
+                    12.90370127340
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2015",
+                "name": "Embassy Golf Links",
+                "neighbourhood": "Domlur",
+                "url": "https://bangaloremirror.indiatimes.com/bangalore/civic/karnataka-golf-association-avid-golferssullage-water-bbmp-embassy-group-bbmp-commissioner/articleshow/46447735.cms?"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.64462945700,
+                    12.95420781501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2025",
+                "name": "Manyata Tech Park",
+                "neighbourhood": "Nagawara",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bbmp-chief-rides-tractor-through-flood-hit-sai-layout-3546518"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.61905189037,
+                    13.04779037271
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2023",
+                "neighbourhood": "Rajarajeshwari Nagar",
+                "name": "Pushpagiri Layout",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/hosakerehalli-lake-breach-floods-houses-drenches-area-in-silt-1217316.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.53343577862,
+                    12.92986558622
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "neighbourhood": "Okalipuram",
                 "date": "2022",
                 "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-flooded-after-cloudburst-in-possibly-wettest-day-ever-1142224.html",
@@ -356,48 +132,16 @@
         {
             "type": "Feature",
             "properties": {
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/flooding-in-many-parts-of-bengaluru-after-torrential-overnight-rain-3546886",
                 "date": "2025",
-                "neighbourhood": "Hennur",
-                "name": "Hennur Railway Underpass"
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/flooding-in-many-parts-of-bengaluru-after-torrential-overnight-rain-3546886",
+                "name": "BMTC Depot",
+                "neighbourhood": "Shantinagar"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.64308448315,
-                    13.04406948968
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "neighbourhood": "Kurubarahalli",
-                "date": "2017",
-                "name": "Kurubarahalli",
-                "url": "https://www.newindianexpress.com/bengaluru/2017/Oct/18/kurubarahalli-residents-struggle-to-make-ends-meet-after-heavy-rains-1677053.html"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.52343650341,
-                    12.99481478042
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-gated-communities-turn-into-ghost-towns-residents-flee-hundreds-of-luxury-cars-submerged/articleshow/94041610.cms",
-                "neighbourhood": "Marathahalli",
-                "date": "2022",
-                "name": "Epsilon Villas"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.69093509197,
-                    12.94634496360
+                    77.59501929760,
+                    12.95374778108
                 ]
             }
         },
@@ -420,32 +164,32 @@
         {
             "type": "Feature",
             "properties": {
-                "date": "2025",
-                "neighbourhood": "HSR Layout",
-                "name": "HSR Layout Sector 6",
-                "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-rains-city-wakes-up-to-flooding-yet-again-after-over-100-mm-of-overnight-downpour/article69592685.ece"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.63304231405,
-                    12.91482822958
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "neighbourhood": "Kengeri",
                 "date": "2024",
-                "name": "Kengeri",
-                "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-deluged-heavy-rain-causes-traffic-chaos-and-waterlogging-across-city/articleshow/114404508.cms"
+                "neighbourhood": "Rajarajeshwari Nagar",
+                "name": "BEML Layout",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/homes-flooded-roads-choked-yet-again-after-another-rain-spell-3240856"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.47854705334,
-                    12.90782167230
+                    77.51446741531,
+                    12.90950477279
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2024",
+                "name": "Wipro",
+                "neighbourhood": "Sarjapur Road",
+                "url": "https://www.moneycontrol.com/news/trends/bengaluru-floods-wipro-opens-blocked-drain-at-sarjapur-road-office-eases-waterlogging-12849235.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.68285631061,
+                    12.91154456365
                 ]
             }
         },
@@ -453,31 +197,31 @@
             "type": "Feature",
             "properties": {
                 "date": "2025",
-                "neighbourhood": "Pottery Town",
-                "name": "NC Colony",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/waterlogged-roads-stall-bengaluru-traffic-home-minister-says-authorities-on-job-3547011"
+                "neighbourhood": "Jayanagar",
+                "name": "LIC Colony",
+                "url": "https://archive.is/DmMw0"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.60931010723,
-                    13.00200707986
+                    77.59140371203,
+                    12.92952048010
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "neighbourhood": "Nandini Layout",
-                "date": "2020",
-                "url": "https://bangaloremirror.indiatimes.com/bangalore/others/on-friday-a-road-caved-in-and-a-supporting-wall-collapsed-in-lakshmi-devi-nagar/articleshow/75364233.cms",
-                "name": "Nandini Layout"
+                "date": "2025",
+                "name": "Sai Layout",
+                "neighbourhood": "Hennur",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bbmp-chief-rides-tractor-through-flood-hit-sai-layout-3546518"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.53519530773,
-                    13.00932461244
+                    77.64381404400,
+                    13.03967961187
                 ]
             }
         },
@@ -485,9 +229,9 @@
             "type": "Feature",
             "properties": {
                 "neighbourhood": "Kurubarahalli",
-                "url": "https://timesofindia.indiatimes.com/city/bengaluru/rain-does-it-again-crawling-traffic-flooded-houses-and-underpasses/articleshow/105054080.cms",
+                "date": "2023",
                 "name": "Kurubarahalli",
-                "date": "2023"
+                "url": "https://timesofindia.indiatimes.com/city/bengaluru/rain-does-it-again-crawling-traffic-flooded-houses-and-underpasses/articleshow/105054080.cms"
             },
             "geometry": {
                 "type": "Point",
@@ -500,64 +244,192 @@
         {
             "type": "Feature",
             "properties": {
+                "neighbourhood": "Marathahalli",
+                "date": "2022",
+                "name": "Munnekolala",
+                "url": "https://www.thenewsminute.com/karnataka/bengaluru-slum-dwellers-rendered-helpless-floods-reptiles-govt-indifference-167736"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.71183486462,
+                    12.94396095861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "url": "https://www.hindustantimes.com/cities/bengaluru-news/bengaluru-rain-nightmare-terrifying-video-shows-biker-falling-as-water-gushes-fiercely-in-flooded-underpass-101728996054329.html",
+                "name": "Panathur Railway Underpass",
                 "date": "2024",
-                "url": "https://www.hindustantimes.com/cities/bengaluru-news/north-bengaluru-sees-cloud-burst-like-rainfall-over-100-houses-flooded-report-101729588421577.html",
-                "name": "Austin Town",
-                "neighbourhood": "Austin Town"
+                "neighbourhood": "Panathur"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.61643407583,
-                    12.96092033675
+                    77.70724294424,
+                    12.93852364806
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "neighbourhood": "Sahakarnagar",
+                "name": "Nayandahalli",
+                "neighbourhood": "Rajarajeshwari Nagar",
                 "date": "2024",
-                "name": "Tatanagar",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-endures-another-day-of-rain-nightmare-3244256"
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/sudden-deluge-of-rains-trigger-traffic-jams-water-logging-in-bengaluru-3221194"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.57115836620,
-                    13.05418681602
+                    77.52826450109,
+                    12.94504838140
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "url": "https://www.thehindu.com/news/cities/bangalore/heavy-rain-batters-bengaluru-roads-flooded-and-vehicles-damaged-yellow-alert-continues/article66035136.ece",
-                "neighbourhood": "Silk Board",
-                "name": "Silk Board",
-                "date": "2022"
+                "name": "National Games Village",
+                "date": "2021",
+                "neighbourhood": "Koramangala",
+                "url": "https://bangaloremirror.indiatimes.com/bangalore/cover-story/its-not-deluge-ionalits-for-real/articleshow/84778703.cms"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.62239928722,
-                    12.91723344847
+                    77.62220618963,
+                    12.94653315263
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "date": "2015",
+                "date": "2024",
+                "neighbourhood": "Halasuru",
+                "name": "Halasuru",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/infra-woes-knock-on-doors-at-dawn-as-rain-pounds-bengaluru-3242438"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.62804268718,
+                    12.97836994462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2024",
+                "name": "Neelasandra",
+                "neighbourhood": "Neelasandra",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/north-east-done-rain-now-turns-to-cbd-south-3246059"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.61733527660,
+                    12.95119655244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2025",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/flooding-in-many-parts-of-bengaluru-after-torrential-overnight-rain-3546886",
+                "neighbourhood": "Hennur",
+                "name": "Hennur Railway Underpass"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.64308448315,
+                    13.04406948968
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Embassy Golf Links",
+                "url": "https://www.deccanchronicle.com/nation/current-affairs/010518/road-flooded-near-embassy-golf-links-in-domlur.html",
                 "neighbourhood": "Domlur",
-                "url": "https://bangaloremirror.indiatimes.com/bangalore/civic/karnataka-golf-association-avid-golferssullage-water-bbmp-embassy-group-bbmp-commissioner/articleshow/46447735.cms?"
+                "date": "2018"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.64462945700,
-                    12.95420781501
+                    77.64366384029,
+                    12.95439603993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kendriya Vihar",
+                "url": "https://www.thehindu.com/news/cities/bangalore/kendriya-vihar-flooded-again-residents-evacuated-for-eight-days/article68782835.ece",
+                "date": "2024",
+                "neighbourhood": "Yelahanka"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.59956832409,
+                    13.10635553618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2025",
+                "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-rains-city-wakes-up-to-flooding-yet-again-after-over-100-mm-of-overnight-downpour/article69592685.ece",
+                "neighbourhood": "HSR Layout",
+                "name": "HSR Layout Sector 6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.63304231405,
+                    12.91482822958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nayandahalli",
+                "neighbourhood": "Rajarajeshwari Nagar",
+                "date": "2020",
+                "url": "https://www.thehindu.com/news/cities/bangalore/parts-of-bengaluru-flooded-after-3-days-of-heavy-rain/article32933257.ece"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.52839324713,
+                    12.94460922202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2025",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/heavy-showers-ipl-crowd-cause-gridlock-3545732",
+                "name": "Domlur",
+                "neighbourhood": "Domlur"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.64226909161,
+                    12.95964478334
                 ]
             }
         },
@@ -581,73 +453,57 @@
             "type": "Feature",
             "properties": {
                 "neighbourhood": "Sahakarnagar",
-                "date": "2025",
-                "name": "Tatanagar",
-                "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-rains-city-wakes-up-to-flooding-yet-again-after-over-100-mm-of-overnight-downpour/article69592685.ece"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.57214541912,
-                    13.05447945979
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2016",
-                "neighbourhood": "Hebbal",
-                "name": "Hebbal",
-                "url": "https://timesofindia.indiatimes.com/city/bengaluru/road-under-hebbal-flyover-turns-into-one-huge-drain/articleshow/65959382.cms"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.59201522350,
-                    13.04720506898
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2024",
-                "name": "Manyata Tech Park",
-                "neighbourhood": "Nagawara",
-                "url": "https://www.thehindu.com/news/cities/bangalore/recent-flooding-at-manyata-tech-park-brings-back-focus-on-rajakaluve-encroachment-issue-in-bengaluru/article68768970.ece"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.61849399090,
-                    13.04804121674
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "National Games Village",
-                "neighbourhood": "Koramangala",
                 "date": "2021",
-                "url": "https://bangaloremirror.indiatimes.com/bangalore/cover-story/its-not-deluge-ionalits-for-real/articleshow/84778703.cms"
+                "name": "Tatanagar",
+                "url": "https://www.facebook.com/northbangalorepost1/videos/this-is-how-residents-of-kodigehalli-tatanagar-spent-the-entire-day-yesterday-th/420922646162597/"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.62220618963,
-                    12.94653315263
+                    77.57109401464,
+                    13.05487659774
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/waterlogged-roads-stall-bengaluru-traffic-home-minister-says-authorities-on-job-3547011",
-                "name": "Panathur S Cross",
+                "url": "https://scroll.in/article/1032186/at-bengalurus-rainbow-drive-a-snapshot-of-the-citys-man-made-flood-challenges",
+                "date": "2022",
+                "neighbourhood": "Sarjapur Road",
+                "name": "Rainbow Drive"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.68702981710,
+                    12.90788439773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2017",
+                "name": "ST Bed",
+                "neighbourhood": "Koramangala",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/in-st-bed-palike-contributes-2019996"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.63450141430,
+                    12.93103674542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "date": "2025",
-                "neighbourhood": "Panathur"
+                "neighbourhood": "Panathur",
+                "name": "Panathur S Cross",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/waterlogged-roads-stall-bengaluru-traffic-home-minister-says-authorities-on-job-3547011"
             },
             "geometry": {
                 "type": "Point",
@@ -660,56 +516,40 @@
         {
             "type": "Feature",
             "properties": {
-                "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-rains-city-wakes-up-to-flooding-yet-again-after-over-100-mm-of-overnight-downpour/article69592685.ece",
+                "date": "2024",
                 "neighbourhood": "Sarjapur Road",
+                "name": "Rainbow Drive",
+                "url": "https://www.thehindu.com/news/national/karnataka/rain-continues-batter-bengaluru-over-100-houses-flooded/article68779017.ece"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.68642898083,
+                    12.90744519388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2021",
+                "name": "Manyata Tech Park",
+                "url": "https://www.thenewsminute.com/karnataka/bengaluru-s-manyata-tech-park-flooded-employees-sent-back-home-157911",
+                "neighbourhood": "Nagawara"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.61849399090,
+                    13.04749772102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "date": "2025",
-                "name": "Rainbow Drive"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.68681521893,
-                    12.90895110415
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "neighbourhood": "Kengeri",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/rain-brings-bengaluru-to-its-knees-lakes-overflow-1140014.html",
-                "date": "2022",
-                "name": "Kengeri"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.47811789989,
-                    12.90815631930
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Embassy Golf Links",
-                "url": "https://www.deccanchronicle.com/nation/current-affairs/010518/road-flooded-near-embassy-golf-links-in-domlur.html",
-                "neighbourhood": "Domlur",
-                "date": "2018"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.64366384029,
-                    12.95439603993
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-rains-city-wakes-up-to-flooding-yet-again-after-over-100-mm-of-overnight-downpour/article69592685.ece",
-                "date": "2025",
                 "neighbourhood": "HBR Layout",
                 "name": "HBR Layout 5th Block"
             },
@@ -718,6 +558,38 @@
                 "coordinates": [
                     77.62875075817,
                     13.03863439139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2021",
+                "neighbourhood": "Halasuru",
+                "name": "Halasuru",
+                "url": "https://timesofindia.indiatimes.com/city/bengaluru/bbmp-chief-orders-drain-works-to-end-ulsoor-flooding/articleshow/85160708.cms"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.62737746716,
+                    12.97863134502
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2024",
+                "url": "https://www.hindustantimes.com/cities/bengaluru-news/north-bengaluru-sees-cloud-burst-like-rainfall-over-100-houses-flooded-report-101729588421577.html",
+                "name": "Austin Town",
+                "neighbourhood": "Austin Town"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.61643407583,
+                    12.96092033675
                 ]
             }
         },
@@ -740,64 +612,64 @@
         {
             "type": "Feature",
             "properties": {
+                "neighbourhood": "Hebbal",
                 "date": "2024",
-                "neighbourhood": "Silk Board",
-                "name": "Silk Board",
-                "url": "https://www.hindustantimes.com/cities/bengaluru-news/bengaluru-rains-early-morning-downpour-triggers-severe-waterlogging-and-traffic-jams-amid-yellow-alert-watch-101729478681137.html"
+                "name": "Hebbal",
+                "url": "https://www.moneycontrol.com/news/india/bengaluru-rains-add-to-monday-blues-roads-flooded-traffic-police-issue-advisory-12793211.html"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.62300010204,
-                    12.91748442432
+                    77.59184358358,
+                    13.04756041122
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "date": "2024",
-                "name": "Wipro",
-                "neighbourhood": "Sarjapur Road",
-                "url": "https://www.moneycontrol.com/news/trends/bengaluru-floods-wipro-opens-blocked-drain-at-sarjapur-road-office-eases-waterlogging-12849235.html"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.68285631061,
-                    12.91154456365
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Nayandahalli",
-                "neighbourhood": "Rajarajeshwari Nagar",
-                "date": "2020",
-                "url": "https://www.thehindu.com/news/cities/bangalore/parts-of-bengaluru-flooded-after-3-days-of-heavy-rain/article32933257.ece"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.52839324713,
-                    12.94460922202
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "neighbourhood": "Sahakarnagar",
+                "name": "Kendriya Vihar",
+                "url": "https://www.newindianexpress.com/cities/bengaluru/2021/Nov/22/boats-used-to-rescue-stranded-residents-in-bengaluru-as-roads-flooded-after-heavy-rains-2386676.html",
                 "date": "2021",
-                "name": "Tatanagar",
-                "url": "https://www.facebook.com/northbangalorepost1/videos/this-is-how-residents-of-kodigehalli-tatanagar-spent-the-entire-day-yesterday-th/420922646162597/"
+                "neighbourhood": "Yelahanka"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.57109401464,
-                    13.05487659774
+                    77.60038373709,
+                    13.10677348927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2020",
+                "neighbourhood": "Rajarajeshwari Nagar",
+                "name": "Gurudatta Layout",
+                "url": "https://www.thenewsminute.com/karnataka/videos-show-how-areas-bengaluru-s-hosakerehalli-were-flooded-within-hours-136054"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.53914351940,
+                    12.92325679916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2025",
+                "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-rains-city-wakes-up-to-flooding-yet-again-after-over-100-mm-of-overnight-downpour/article69592685.ece",
+                "neighbourhood": "Sahakarnagar",
+                "name": "Tatanagar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.57214541912,
+                    13.05447945979
                 ]
             }
         },
@@ -820,64 +692,320 @@
         {
             "type": "Feature",
             "properties": {
-                "neighbourhood": "Nandini Layout",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-rains-waterlogging-slow-moving-traffic-tree-falls-disrupt-normal-life-as-imd-issues-orange-alert-3241096",
+                "date": "2021",
+                "neighbourhood": "Hulimavu",
+                "name": "Hulimavu",
+                "url": "https://www.thehindu.com/news/cities/bangalore/800-houses-flooded-after-hulimavu-lake-breaches/article61615080.ece"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.60828013897,
+                    12.87678121634
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "neighbourhood": "Kurubarahalli",
+                "date": "2017",
+                "name": "Kurubarahalli",
+                "url": "https://www.newindianexpress.com/bengaluru/2017/Oct/18/kurubarahalli-residents-struggle-to-make-ends-meet-after-heavy-rains-1677053.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.52343650341,
+                    12.99481478042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2016",
+                "neighbourhood": "Hebbal",
+                "name": "Hebbal",
+                "url": "https://timesofindia.indiatimes.com/city/bengaluru/road-under-hebbal-flyover-turns-into-one-huge-drain/articleshow/65959382.cms"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.59201522350,
+                    13.04720506898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-road-caves-in-underpass-floods-after-night-long-rain/articleshow/94870728.cms",
+                "neighbourhood": "CV Raman Nagar",
+                "date": "2022",
+                "name": "Bagmane Tech Park"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.65673158407,
+                    12.97967679752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "date": "2024",
+                "neighbourhood": "Kengeri",
+                "name": "Kengeri",
+                "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-deluged-heavy-rain-causes-traffic-chaos-and-waterlogging-across-city/articleshow/114404508.cms"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.47854705334,
+                    12.90782167230
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2025",
+                "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-rains-city-wakes-up-to-flooding-yet-again-after-over-100-mm-of-overnight-downpour/article69592685.ece",
+                "neighbourhood": "Sarjapur Road",
+                "name": "Rainbow Drive"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.68681521893,
+                    12.90895110415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "neighbourhood": "Bellandur",
+                "date": "2024;2022",
+                "name": "Ecospace",
+                "url": "https://www.thehindu.com/news/national/karnataka/heavy-rain-brings-bengaluru-to-its-knees/article65854264.ece;https://www.deccanherald.com/india/karnataka/bengaluru/heavy-overnight-rain-floods-bengalurus-homes-and-major-roads-3242875"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.67982001781,
+                    12.92476261413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "neighbourhood": "Sahakarnagar",
+                "date": "2024",
+                "name": "Tatanagar",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-endures-another-day-of-rain-nightmare-3244256"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.57115836620,
+                    13.05418681602
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "url": "https://www.newindianexpress.com/states/karnataka/2024/Aug/13/every-spell-leaves-bengaluru-in-a-flood-of-misery",
+                "name": "Jayadeva Hospital",
+                "neighbourhood": "JP Nagar",
+                "date": "2024"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.59995458364,
+                    12.91652232796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2024",
+                "name": "Silk Board",
+                "neighbourhood": "Silk Board",
+                "url": "https://www.hindustantimes.com/cities/bengaluru-news/bengaluru-rains-early-morning-downpour-triggers-severe-waterlogging-and-traffic-jams-amid-yellow-alert-watch-101729478681137.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.62300010204,
+                    12.91748442432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2025",
+                "name": "Silk Board",
+                "neighbourhood": "Silk Board",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/flooding-in-many-parts-of-bengaluru-after-torrential-overnight-rain-3546886"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.62244220257,
+                    12.91765174141
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "url": "https://www.thehindu.com/news/cities/bangalore/heavy-rain-batters-bengaluru-roads-flooded-and-vehicles-damaged-yellow-alert-continues/article66035136.ece",
+                "name": "Silk Board",
+                "neighbourhood": "Silk Board",
+                "date": "2022"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.62239928722,
+                    12.91723344847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "url": "https://www.youtube.com/watch?v=zjc2_ZYAkrM",
+                "date": "2024",
+                "neighbourhood": "Hennur",
+                "name": "Hennur Railway Underpass"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.64248366833,
+                    13.04369321749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-gated-communities-turn-into-ghost-towns-residents-flee-hundreds-of-luxury-cars-submerged/articleshow/94041610.cms",
+                "neighbourhood": "Marathahalli",
+                "date": "2022",
+                "name": "Epsilon Villas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.69093509197,
+                    12.94634496360
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2024",
+                "name": "Manyata Tech Park",
+                "neighbourhood": "Nagawara",
+                "url": "https://www.thehindu.com/news/cities/bangalore/recent-flooding-at-manyata-tech-park-brings-back-focus-on-rajakaluve-encroachment-issue-in-bengaluru/article68768970.ece"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.61849399090,
+                    13.04804121674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2025",
+                "name": "NC Colony",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/waterlogged-roads-stall-bengaluru-traffic-home-minister-says-authorities-on-job-3547011",
+                "neighbourhood": "Pottery Town"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.60931010723,
+                    13.00200707986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "neighbourhood": "Kengeri",
+                "date": "2022",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/rain-brings-bengaluru-to-its-knees-lakes-overflow-1140014.html",
+                "name": "Kengeri"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.47811789989,
+                    12.90815631930
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "date": "2024",
+                "neighbourhood": "Jayanagar",
+                "name": "Jayanagar 5th Block",
+                "url": "https://archive.is/qx7kk"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.58454798579,
+                    12.92078888472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "neighbourhood": "Bellandur",
+                "name": "Prestige Tech Park",
+                "date": "2022",
+                "url": "https://www.thehindu.com/news/national/karnataka/heavy-rain-brings-bengaluru-to-its-knees/article65854264.ece"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.69278045177,
+                    12.94408643313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "neighbourhood": "Nandini Layout",
+                "date": "2020",
+                "url": "https://bangaloremirror.indiatimes.com/bangalore/others/on-friday-a-road-caved-in-and-a-supporting-wall-collapsed-in-lakshmi-devi-nagar/articleshow/75364233.cms",
                 "name": "Nandini Layout"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.53510947704,
-                    13.00869740382
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "neighbourhood": "Marathahalli",
-                "date": "2022",
-                "name": "Munnekolala",
-                "url": "https://www.thenewsminute.com/karnataka/bengaluru-slum-dwellers-rendered-helpless-floods-reptiles-govt-indifference-167736"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.71183486462,
-                    12.94396095861
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2024",
-                "neighbourhood": "Halasuru",
-                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/infra-woes-knock-on-doors-at-dawn-as-rain-pounds-bengaluru-3242438",
-                "name": "Halasuru"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.62804268718,
-                    12.97836994462
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "date": "2024",
-                "neighbourhood": "Sarjapur Road",
-                "name": "Rainbow Drive",
-                "url": "https://www.thehindu.com/news/national/karnataka/rain-continues-batter-bengaluru-over-100-houses-flooded/article68779017.ece"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.68642898083,
-                    12.90744519388
+                    77.53519530773,
+                    13.00932461244
                 ]
             }
         }
