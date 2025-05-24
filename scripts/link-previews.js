@@ -7,6 +7,19 @@ const FAVICON_DIR = './src/lib/assets/favicons';
 const MAX_RETRIES = 3;
 const RETRY_DELAY = 2000;
 
+// Command line arguments
+const args = process.argv.slice(2);
+const mode = args.find(arg => arg.startsWith('--mode='))?.split('=')[1] || 'default';
+
+// Processing modes:
+// 'new-only': Only process URLs not in cache
+// 'failed-only': Only process URLs that previously failed
+// 'stale': Only process URLs older than threshold
+// 'force-all': Process all URLs regardless of cache
+// 'default': Skip recent successful URLs (current behavior)
+
+console.log(`Running in mode: ${mode}`);
+
 // Ensure favicon directory exists
 if (!fs.existsSync(FAVICON_DIR)) {
   fs.mkdirSync(FAVICON_DIR, { recursive: true });
@@ -23,6 +36,36 @@ try {
 const poisData = JSON.parse(
   fs.readFileSync('./src/lib/data/pois.json', 'utf8')
 );
+
+function shouldProcessUrl(url, previews, mode) {
+  const existing = previews[url];
+  const TWO_MONTHS = 2 * 30 * 24 * 60 * 60 * 1000;
+
+  switch (mode) {
+    case 'new-only':
+      return !existing;
+
+    case 'failed-only':
+      return existing && existing.error;
+
+    case 'stale':
+      if (!existing || !existing.lastFetched) return true;
+      const lastFetched = new Date(existing.lastFetched);
+      return Date.now() - lastFetched >= TWO_MONTHS;
+
+    case 'force-all':
+      return true;
+
+    case 'default':
+    default:
+      // Skip if we have recent successful data
+      if (existing && existing.lastFetched && !existing.error) {
+        const lastFetched = new Date(existing.lastFetched);
+        return Date.now() - lastFetched >= TWO_MONTHS;
+      }
+      return true;
+  }
+}
 
 async function getFavicon(url) {
   try {
@@ -101,24 +144,27 @@ async function main() {
   });
 
   const previews = { ...existingPreviews };
+
+  // Filter URLs based on mode
+  const urlsToProcess = Array.from(uniqueUrls).filter(url =>
+    shouldProcessUrl(url, previews, mode)
+  );
+
+  console.log(`Total URLs found: ${uniqueUrls.size}`);
+  console.log(`URLs to process in '${mode}' mode: ${urlsToProcess.length}`);
+
+  if (urlsToProcess.length === 0) {
+    console.log('No URLs to process. Exiting.');
+    return;
+  }
+
   let count = 0;
-  const total = uniqueUrls.size;
+  const total = urlsToProcess.length;
   let requestsThisMinute = 0;
   const startTime = Date.now();
 
-  const TWO_MONTHS = 2 * 30 * 24 * 60 * 60 * 1000; // 2 months in milliseconds
-
-  for (const url of uniqueUrls) {
+  for (const url of urlsToProcess) {
     count++;
-
-    // Skip if we have recent data
-    if (previews[url] && previews[url].lastFetched) {
-      const lastFetched = new Date(previews[url].lastFetched);
-      if (Date.now() - lastFetched < TWO_MONTHS) {
-        console.log(`Skipping ${url} - data is less than two months old`);
-        continue;
-      }
-    }
 
     // Rate limiting for favicon API (100 requests per minute)
     requestsThisMinute++;

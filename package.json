@@ -10,7 +10,11 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "eslint . && prettier --check .",
     "format": "prettier --write .",
-    "links": "node scripts/link-previews.js"
+    "links": "node scripts/link-previews.js",
+    "links:new": "node scripts/link-previews.js --mode=new-only",
+    "links:failed": "node scripts/link-previews.js --mode=failed-only",
+    "links:stale": "node scripts/link-previews.js --mode=stale",
+    "links:force": "node scripts/link-previews.js --mode=force-all"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
